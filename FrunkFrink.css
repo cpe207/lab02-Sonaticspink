@@ -82,11 +82,17 @@ body {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 25px; /* Adjust space between image and text */
-  align-items: center; /* Vertical  ly align the items */
+  align-items: start; /* Vertical  ly align the items */
   background-color: #eeeeee;
   
 }
 
+.content a:hover{
+  color: #565050;
+}
+.content a{
+  color: black;
+}
 
 
 
@@ -127,5 +133,5 @@ body {
 
 .text-container3 img {
   width: 650px ;
-    
+
 }
